@@ -31,3 +31,11 @@ Create a SparkSession: After adding the driver to your project, you can create a
 Read data from the database: Once you have created the SparkSession object, you can read data from the database using the DataFrameReader.jdbc() method. You need to pass the JDBC URL of the database, the table name, and the SparkSession object as arguments to this method.
 
 Process the data: Finally, you can process the data by applying transformations and actions to the DataFrame object returned by the DataFrameReader.jdbc() method.
+
+![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/d9bfe365-bed9-4885-8eae-31d07182f9db)
+
+# SQL Database structure (Can be seen from MySQL)
+
+![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/d541528b-11eb-4efe-b957-bb64662422dc)
+
+The diagram of a database schema shows the relationship between different tables and fields in the database. The tables are represented as rectangles with rounded corners, while the fields are represented as rectangles with sharp corners. The tables are connected by lines, representing the relationship between them. The tables are labeled with their names, such as “employees”, “salaries”, and “departments”. The fields are labeled with their names, such as “emp_no”, “first_name”, and “last_name”

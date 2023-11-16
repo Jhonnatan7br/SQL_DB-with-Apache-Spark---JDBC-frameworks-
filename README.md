@@ -6,7 +6,7 @@ Create a Spark session and configure it to use the JDBC driver for the database.
 Read and write data from and to the database using Spark SQL and DataFrames.
 Query and analyze data using Spark SQL and various built-in and user-defined functions.
 
-# Steps to connect to a SQL database using JDBC:
+# Steps to connect to a SQL database using JDBC (Java Database Connectivity):
 
 Load the JDBC driver: First, you need to load the JDBC driver for the database you want to connect to. You can do this by calling the Class.forName() method and passing the name of the driver class as an argument.
 

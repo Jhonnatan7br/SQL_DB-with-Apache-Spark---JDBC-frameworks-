@@ -20,3 +20,14 @@ Process the results: Finally, you can process the results of the query by iterat
 
 ![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/ae9274f7-e6c3-45a9-8e6d-b939a92d44a3)
 
+# Steps to connect to a SQL database using Apache Spark Framework:
+
+Identify the JDBC driver: First, you need to identify the JDBC driver for the database you want to connect to. You can usually find the driver on the database vendor’s website.
+
+Add the driver to your project: Once you have identified the driver, you need to add it to your project’s classpath. You can do this by adding the driver JAR file to the lib directory of your Spark installation.
+
+Create a SparkSession: After adding the driver to your project, you can create a SparkSession object using the SparkSession.builder() method. You need to set the JDBC URL of the database, the username, and the password as options to this method.
+
+Read data from the database: Once you have created the SparkSession object, you can read data from the database using the DataFrameReader.jdbc() method. You need to pass the JDBC URL of the database, the table name, and the SparkSession object as arguments to this method.
+
+Process the data: Finally, you can process the data by applying transformations and actions to the DataFrame object returned by the DataFrameReader.jdbc() method.

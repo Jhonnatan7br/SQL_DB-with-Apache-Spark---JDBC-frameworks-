@@ -1,0 +1,80 @@
+
+CREATE DATABASE decourse;
+
+USE decourse;
+
+CREATE TABLE students(id int, firstname char(40), lastname char(80));
+
+DESCRIBE students;
+
+ALTER TABLE students ADD courseid int;
+
+DESCRIBE students;
+
+ALTER TABLE students DROP firstname;
+
+CREATE TABLE teacher (id int, firstname char(40), lastname char(80));
+
+DESCRIBE teacher;
+
+ALTER TABLE students ADD PRIMARY KEY (id);
+
+DESCRIBE students;
+
+ALTER TABLE students ALTER courseid SET DEFAULT '0';
+
+DESCRIBE students;
+
+
+
+SHOW TABLES;
+
+CREATE TABLE course(id int, name char(40));
+
+ALTER TABLE course ADD PRIMARY KEY (id);
+
+DESCRIBE students;
+
+DESCRIBE course;
+
+CREATE TABLE students2 (id int PRIMARY KEY,name char(40), courseid int, FOREIGN KEY (course id) REFERENCES course(id)); 
+
+DESCRIBE students2;
+
+DESCRIBE course;
+
+INSERT INTO course (id,name) VALUES (1, "datamanagement");
+
+SELECT * FROM course;
+
+SELECT name FROM course;
+
+DROP TABLE students;
+
+SHOW CREATE TABLE course;
+
+SHOW CREATE TABLE students2;
+
+ALTER TABLE students2 DROP FOREIGN KEY students2_ibfk_1;
+
+CREATE TABLE book (id int PRIMARY KEY,
+title varchar(50),
+price int, CHECK (price<100),
+publisher varchar(30) DEFAULT 'kedge');
+
+DESCRIBE book;
+
+INSERT INTO book (id, title, price) VALUES (1, "data", 50);
+
+INSERT INTO book (id, title, price) VALUES (2, "data", 50);
+
+INSERT INTO book (id, title, price) VALUES (3, "data", 150);
+#It does not run, because the price can not be more than 100#
+
+SELECT * FROM book;
+
+SELECT title FROM book WHERE id=1;
+
+
+
+

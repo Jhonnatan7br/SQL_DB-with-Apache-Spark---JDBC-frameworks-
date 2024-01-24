@@ -1,4 +1,4 @@
-![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/264d3abd-4e34-4a3a-a9f3-50aac4fec30b)
+![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/8877d337-cf03-4829-a71b-c2da2a245cd1)
 
 # SQL_DB-on-Apache-Spark---JDBC-frameworks-
 

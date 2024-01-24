@@ -1,4 +1,6 @@
-# SQL_DB-with-Apache-Spark---JDBC-frameworks-
+![image](https://github.com/Jhonnatan7br/SQL_DB-with-Apache-Spark---JDBC-frameworks-/assets/104907786/264d3abd-4e34-4a3a-a9f3-50aac4fec30b)
+
+# SQL_DB-on-Apache-Spark---JDBC-frameworks-
 
 This project is a demonstration of how to use Apache Spark and JDBC frameworks to connect to a SQL database and perform various operations on it. The project shows how to:
 
